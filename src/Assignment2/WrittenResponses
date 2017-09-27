@@ -1,0 +1,12 @@
+a) true
+b) true
+c) false
+d) false
+e) false
+f) true
+g) true
+
+the statements do not operate the same because if it is more likely for robot
+to not be on a thing then statement one is slower because it has to read what it
+should do if it was on a thing before it knows what to do in it's situation
+in this case it is not much faster because the tasks are so simple
