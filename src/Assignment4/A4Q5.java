@@ -13,7 +13,10 @@ import java.util.Scanner;
 public class A4Q5 {
 
     /**
-     * @param args the command line arguments
+     * variables are named based on the number of the test and ended by a letter.
+     * T = total (total available marks for the test)
+     * S = score (how many marks you get)
+     * P = percent 
      */
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Please enter your name");

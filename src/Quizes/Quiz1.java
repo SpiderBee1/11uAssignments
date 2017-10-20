@@ -39,7 +39,7 @@ public class Quiz1 {
         new Wall(quiz, 0, 7, Direction.SOUTH);
         new Wall(quiz, 0, 8, Direction.SOUTH);
         //creates variable distance end wall
-        new Wall(quiz, 0, 8, Direction.EAST);
+        new Wall(quiz, 0, 10, Direction.EAST);
         //create 7 things from 0,1 to 0,7
         new Thing(quiz, 0, 2);
         new Thing(quiz, 0, 3);
