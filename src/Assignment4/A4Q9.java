@@ -19,7 +19,9 @@ public class A4Q9 extends javax.swing.JDialog {
     }
 
     /**
-     * each button does essentially the same thing
+     * each button does essentially the same thing.
+     * it creates two variables, one for each number entered by the user
+     * the only difference between buttons is what kind of calculation they output
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -148,6 +150,7 @@ public class A4Q9 extends javax.swing.JDialog {
     }//GEN-LAST:event_secnumActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        //calculates addition
         String firstText = firnum.getText();
         double firstNumber = Double.parseDouble(firstText);
         String secondText = secnum.getText();
@@ -157,6 +160,7 @@ public class A4Q9 extends javax.swing.JDialog {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        //calculates subtraction
         String firstText = firnum.getText();
         double firstNumber = Double.parseDouble(firstText);
         String secondText = secnum.getText();
@@ -166,6 +170,7 @@ public class A4Q9 extends javax.swing.JDialog {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        //calculates multiplication
         String firstText = firnum.getText();
         double firstNumber = Double.parseDouble(firstText);
         String secondText = secnum.getText();
@@ -175,6 +180,7 @@ public class A4Q9 extends javax.swing.JDialog {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        //calculates division
         String firstText = firnum.getText();
         double firstNumber = Double.parseDouble(firstText);
         String secondText = secnum.getText();
