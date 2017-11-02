@@ -90,7 +90,6 @@ public class A5Q1 {
                     System.out.println("in it original format is:");
                     System.out.println("\"" + translated + "\"");
                 }
-
             }
         }
     }
