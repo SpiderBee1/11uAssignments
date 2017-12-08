@@ -7,7 +7,7 @@ package Assignment7;
 import java.util.Scanner;
 
 /**
- * 
+ *
  */
 public class A7Q8 {
     //method to check if the digits of a number are odd
@@ -48,7 +48,7 @@ public class A7Q8 {
     /**
      * this question makes the least sense to use a method for
      */
-    public static void main(String[] args) throws InterruptedException{
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("You are now running the odd digits number tester. type \"Quit\" to quit");
         Scanner input = new Scanner(System.in);
         A7Q8 run = new A7Q8();
