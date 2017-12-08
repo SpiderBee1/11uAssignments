@@ -12,11 +12,13 @@ import java.util.Scanner;
  */
 public class A7Q6 {
     //method calculates last "digit"(character) of so called "interger"(string) 
-    public void lastDigit(String text){
-        Character last = text.charAt(text.length()-1);
+
+    public void lastDigit(String text) {
+        Character last = text.charAt(text.length() - 1);
         //output result
         System.out.println("the last digit is " + last + ".");
     }
+
     /**
      * this question is the same as question 7 apart from a few changes
      */

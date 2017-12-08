@@ -14,13 +14,14 @@ public class A7Q1 {
 
     public void circleArea(double radius) {
         //equation for area of a circle
-        double area= Math.pow(radius, 2) * Math.PI;
+        double area = Math.pow(radius, 2) * Math.PI;
         //output result
         System.out.println("The area of the circle is " + area);
     }
 
     /**
-     * I did question 2 first by accident so i just ended up copying most of the code
+     * I did question 2 first by accident so i just ended up copying most of the
+     * code
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
